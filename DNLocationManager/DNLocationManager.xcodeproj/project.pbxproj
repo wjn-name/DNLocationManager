@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51BD44841D87C9D3007B9DBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD44831D87C9D3007B9DBD /* main.m */; };
+		51BD44871D87C9D3007B9DBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD44861D87C9D3007B9DBD /* AppDelegate.m */; };
+		51BD448A1D87C9D3007B9DBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD44891D87C9D3007B9DBD /* ViewController.m */; };
+		51BD448D1D87C9D3007B9DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD448B1D87C9D3007B9DBD /* Main.storyboard */; };
+		51BD448F1D87C9D3007B9DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BD448E1D87C9D3007B9DBD /* Assets.xcassets */; };
+		51BD44921D87C9D3007B9DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD44901D87C9D3007B9DBD /* LaunchScreen.storyboard */; };
+		51BD449D1D87C9D3007B9DBD /* DNLocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD449C1D87C9D3007B9DBD /* DNLocationManagerTests.m */; };
+		51BD44A81D87C9D3007B9DBD /* DNLocationManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD44A71D87C9D3007B9DBD /* DNLocationManagerUITests.m */; };
+		51BD44B71D87CA15007B9DBD /* DNLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD44B61D87CA15007B9DBD /* DNLocationManager.m */; };
+		51BD44B91D87CA69007B9DBD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BD44B81D87CA69007B9DBD /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51BD44991D87C9D3007B9DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BD44771D87C9D2007B9DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BD447E1D87C9D2007B9DBD;
+			remoteInfo = DNLocationManager;
+		};
+		51BD44A41D87C9D3007B9DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BD44771D87C9D2007B9DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BD447E1D87C9D2007B9DBD;
+			remoteInfo = DNLocationManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51BD447F1D87C9D2007B9DBD /* DNLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BD44831D87C9D3007B9DBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51BD44851D87C9D3007B9DBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51BD44861D87C9D3007B9DBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51BD44881D87C9D3007B9DBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51BD44891D87C9D3007B9DBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51BD448C1D87C9D3007B9DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51BD448E1D87C9D3007B9DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51BD44911D87C9D3007B9DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51BD44931D87C9D3007B9DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BD44981D87C9D3007B9DBD /* DNLocationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNLocationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BD449C1D87C9D3007B9DBD /* DNLocationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNLocationManagerTests.m; sourceTree = "<group>"; };
+		51BD449E1D87C9D3007B9DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BD44A31D87C9D3007B9DBD /* DNLocationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNLocationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BD44A71D87C9D3007B9DBD /* DNLocationManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNLocationManagerUITests.m; sourceTree = "<group>"; };
+		51BD44A91D87C9D3007B9DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BD44B51D87CA15007B9DBD /* DNLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNLocationManager.h; sourceTree = "<group>"; };
+		51BD44B61D87CA15007B9DBD /* DNLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNLocationManager.m; sourceTree = "<group>"; };
+		51BD44B81D87CA69007B9DBD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51BD447C1D87C9D2007B9DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD44B91D87CA69007B9DBD /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD44951D87C9D3007B9DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD44A01D87C9D3007B9DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51BD44761D87C9D2007B9DBD = {
+			isa = PBXGroup;
+			children = (
+				51BD44B81D87CA69007B9DBD /* CoreLocation.framework */,
+				51BD44811D87C9D3007B9DBD /* DNLocationManager */,
+				51BD449B1D87C9D3007B9DBD /* DNLocationManagerTests */,
+				51BD44A61D87C9D3007B9DBD /* DNLocationManagerUITests */,
+				51BD44801D87C9D2007B9DBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51BD44801D87C9D2007B9DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BD447F1D87C9D2007B9DBD /* DNLocationManager.app */,
+				51BD44981D87C9D3007B9DBD /* DNLocationManagerTests.xctest */,
+				51BD44A31D87C9D3007B9DBD /* DNLocationManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51BD44811D87C9D3007B9DBD /* DNLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				51BD44851D87C9D3007B9DBD /* AppDelegate.h */,
+				51BD44861D87C9D3007B9DBD /* AppDelegate.m */,
+				51BD44881D87C9D3007B9DBD /* ViewController.h */,
+				51BD44891D87C9D3007B9DBD /* ViewController.m */,
+				51BD44B51D87CA15007B9DBD /* DNLocationManager.h */,
+				51BD44B61D87CA15007B9DBD /* DNLocationManager.m */,
+				51BD44821D87C9D3007B9DBD /* Supporting Files */,
+			);
+			path = DNLocationManager;
+			sourceTree = "<group>";
+		};
+		51BD44821D87C9D3007B9DBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51BD448B1D87C9D3007B9DBD /* Main.storyboard */,
+				51BD448E1D87C9D3007B9DBD /* Assets.xcassets */,
+				51BD44901D87C9D3007B9DBD /* LaunchScreen.storyboard */,
+				51BD44931D87C9D3007B9DBD /* Info.plist */,
+				51BD44831D87C9D3007B9DBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51BD449B1D87C9D3007B9DBD /* DNLocationManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				51BD449C1D87C9D3007B9DBD /* DNLocationManagerTests.m */,
+				51BD449E1D87C9D3007B9DBD /* Info.plist */,
+			);
+			path = DNLocationManagerTests;
+			sourceTree = "<group>";
+		};
+		51BD44A61D87C9D3007B9DBD /* DNLocationManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51BD44A71D87C9D3007B9DBD /* DNLocationManagerUITests.m */,
+				51BD44A91D87C9D3007B9DBD /* Info.plist */,
+			);
+			path = DNLocationManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51BD447E1D87C9D2007B9DBD /* DNLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BD44AC1D87C9D3007B9DBD /* Build configuration list for PBXNativeTarget "DNLocationManager" */;
+			buildPhases = (
+				51BD447B1D87C9D2007B9DBD /* Sources */,
+				51BD447C1D87C9D2007B9DBD /* Frameworks */,
+				51BD447D1D87C9D2007B9DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNLocationManager;
+			productName = DNLocationManager;
+			productReference = 51BD447F1D87C9D2007B9DBD /* DNLocationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51BD44971D87C9D3007B9DBD /* DNLocationManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BD44AF1D87C9D3007B9DBD /* Build configuration list for PBXNativeTarget "DNLocationManagerTests" */;
+			buildPhases = (
+				51BD44941D87C9D3007B9DBD /* Sources */,
+				51BD44951D87C9D3007B9DBD /* Frameworks */,
+				51BD44961D87C9D3007B9DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BD449A1D87C9D3007B9DBD /* PBXTargetDependency */,
+			);
+			name = DNLocationManagerTests;
+			productName = DNLocationManagerTests;
+			productReference = 51BD44981D87C9D3007B9DBD /* DNLocationManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51BD44A21D87C9D3007B9DBD /* DNLocationManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BD44B21D87C9D3007B9DBD /* Build configuration list for PBXNativeTarget "DNLocationManagerUITests" */;
+			buildPhases = (
+				51BD449F1D87C9D3007B9DBD /* Sources */,
+				51BD44A01D87C9D3007B9DBD /* Frameworks */,
+				51BD44A11D87C9D3007B9DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BD44A51D87C9D3007B9DBD /* PBXTargetDependency */,
+			);
+			name = DNLocationManagerUITests;
+			productName = DNLocationManagerUITests;
+			productReference = 51BD44A31D87C9D3007B9DBD /* DNLocationManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51BD44771D87C9D2007B9DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wjn;
+				TargetAttributes = {
+					51BD447E1D87C9D2007B9DBD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AN3ACWJAM4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					51BD44971D87C9D3007B9DBD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 51BD447E1D87C9D2007B9DBD;
+					};
+					51BD44A21D87C9D3007B9DBD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 51BD447E1D87C9D2007B9DBD;
+					};
+				};
+			};
+			buildConfigurationList = 51BD447A1D87C9D2007B9DBD /* Build configuration list for PBXProject "DNLocationManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51BD44761D87C9D2007B9DBD;
+			productRefGroup = 51BD44801D87C9D2007B9DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51BD447E1D87C9D2007B9DBD /* DNLocationManager */,
+				51BD44971D87C9D3007B9DBD /* DNLocationManagerTests */,
+				51BD44A21D87C9D3007B9DBD /* DNLocationManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51BD447D1D87C9D2007B9DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD44921D87C9D3007B9DBD /* LaunchScreen.storyboard in Resources */,
+				51BD448F1D87C9D3007B9DBD /* Assets.xcassets in Resources */,
+				51BD448D1D87C9D3007B9DBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD44961D87C9D3007B9DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD44A11D87C9D3007B9DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BD447B1D87C9D2007B9DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD44B71D87CA15007B9DBD /* DNLocationManager.m in Sources */,
+				51BD448A1D87C9D3007B9DBD /* ViewController.m in Sources */,
+				51BD44871D87C9D3007B9DBD /* AppDelegate.m in Sources */,
+				51BD44841D87C9D3007B9DBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD44941D87C9D3007B9DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD449D1D87C9D3007B9DBD /* DNLocationManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD449F1D87C9D3007B9DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD44A81D87C9D3007B9DBD /* DNLocationManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51BD449A1D87C9D3007B9DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BD447E1D87C9D2007B9DBD /* DNLocationManager */;
+			targetProxy = 51BD44991D87C9D3007B9DBD /* PBXContainerItemProxy */;
+		};
+		51BD44A51D87C9D3007B9DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BD447E1D87C9D2007B9DBD /* DNLocationManager */;
+			targetProxy = 51BD44A41D87C9D3007B9DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51BD448B1D87C9D3007B9DBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BD448C1D87C9D3007B9DBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51BD44901D87C9D3007B9DBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BD44911D87C9D3007B9DBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51BD44AA1D87C9D3007B9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51BD44AB1D87C9D3007B9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51BD44AD1D87C9D3007B9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DNLocationManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		51BD44AE1D87C9D3007B9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DNLocationManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		51BD44B01D87C9D3007B9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNLocationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNLocationManager.app/DNLocationManager";
+			};
+			name = Debug;
+		};
+		51BD44B11D87C9D3007B9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNLocationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNLocationManager.app/DNLocationManager";
+			};
+			name = Release;
+		};
+		51BD44B31D87C9D3007B9DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNLocationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNLocationManager;
+			};
+			name = Debug;
+		};
+		51BD44B41D87C9D3007B9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNLocationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNLocationManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51BD447A1D87C9D2007B9DBD /* Build configuration list for PBXProject "DNLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD44AA1D87C9D3007B9DBD /* Debug */,
+				51BD44AB1D87C9D3007B9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BD44AC1D87C9D3007B9DBD /* Build configuration list for PBXNativeTarget "DNLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD44AD1D87C9D3007B9DBD /* Debug */,
+				51BD44AE1D87C9D3007B9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51BD44AF1D87C9D3007B9DBD /* Build configuration list for PBXNativeTarget "DNLocationManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD44B01D87C9D3007B9DBD /* Debug */,
+				51BD44B11D87C9D3007B9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51BD44B21D87C9D3007B9DBD /* Build configuration list for PBXNativeTarget "DNLocationManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD44B31D87C9D3007B9DBD /* Debug */,
+				51BD44B41D87C9D3007B9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51BD44771D87C9D2007B9DBD /* Project object */;
+}
